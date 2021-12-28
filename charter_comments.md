@@ -1,8 +1,4 @@
-# Technical Committee Formation Team
-
-This GitHub repo is dedicated to developing a proposal to the ACM (Association for Computing Machinery) [SIGDOC](https://sigdoc.acm.org/) (Special Interest Group on the Design of Communication) for a technical committee named **Structured Information Development and Management**.
-
-## TC Charter (DRAFT)
+# Comments: Structured Information Development and Management Charter (DRAFT)
 
 This TC seeks to promote the benefits of structured information and information management for industry practitioners and teachers. Under the guidance of the SIGDOC Executive Committee, our proposed TC would be active in developing technical papers, pedagogical (curriculum) content, webinar workshop materials, conference workshop materials, and industry speaker directories. 
 
@@ -13,20 +9,16 @@ We have two short-term activities:
 
 In the long run, the TC will continue to recruit new ACM SIGDOC members, perform outreach to existing industry/academic partnerships, and promote new opportunities for collaboration (internships, research, and career development materials).
 
-To add comments/suggestions to the charter, edit [Comments: Structured Information Development and Management Charter (DRAFT)](carter_comments.md).
+## Comment: Your name and email
 
-## Proposed TC Activities and Deliverables (DRAFT)
+----------
+
+## Comment: Your name and email
+
+----------
+
+## Comment: Your name and email
+
+----------
 
 
-
-
-## Founding Members 
-
-
-
-
-## Organizing Committee
-
- 
-
-   
