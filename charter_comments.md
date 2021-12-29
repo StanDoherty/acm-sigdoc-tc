@@ -1,4 +1,4 @@
-# Comments: Structured Information Development and Management Charter (DRAFT)
+# Charter: Structured Information Development and Management Charter (DRAFT)
 
 This TC seeks to promote the benefits of structured information and information management for industry practitioners and teachers. Under the guidance of the SIGDOC Executive Committee, our proposed TC would be active in developing technical papers, pedagogical (curriculum) content, webinar workshop materials, conference workshop materials, and industry speaker directories. 
 
