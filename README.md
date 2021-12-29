@@ -13,10 +13,19 @@ We have two short-term activities:
 
 In the long run, the TC will continue to recruit new ACM SIGDOC members, perform outreach to existing industry/academic partnerships, and promote new opportunities for collaboration (internships, research, and career development materials).
 
-To add comments/suggestions to the charter, edit [Comments: Structured Information Development and Management Charter (DRAFT)](carter_comments.md).
+To add comments/suggestions to the charter, edit [Comments: Structured Information Development and Management Charter (DRAFT)](charter_comments.md).
 
 ## Proposed TC Activities and Deliverables (DRAFT)
 
+The following items are guesses what would be useful activities and publications for current and future ACM SIGDOC members -- practitioners, instructors, researchers, and students. 
+
+1. Technical papers suitable for publication through the ACM SIGDOC web site sigdoc.acm.org.
+2. Primers on structured information, content management, metadata taxonomies, and related topics to be made available to ACM SIGDOC members and to the students they support. 
+3. Tutorials and tutorial-oriented webinars.
+4. Technical workshops at the fall ACM SIGDOC national conferences.
+5. Pedagogical workshops in the spring for teachers interested in integrating structured authoring solutions such as DITA into their curricula.
+6. Social media postings about new developments and trends in structured information.
+7. Industry speaker directory - a list of industry practitioners upon whom teachers could call for demonstrations, lectures, and workshops.
 
 
 
