@@ -6,7 +6,9 @@
         <topicref href="charter_comments.md" format="markdown"/>
         <topicref href="activities.md" format="markdown">
             <topicref href="activities_tech-papers.md" format="markdown"/>
-            <topicref href="activities_primers.md" format="markdown"/>
+            <topicref href="activities_primers.md" format="markdown">
+                <topicref href="activities_primers_intro-structure.md" format="markdown"/>
+            </topicref>
             <topicref href="activities_tutorials.md" format="markdown"/>
             <topicref href="activities_conference-workshops.md" format="markdown"/>
             <topicref href="activities_pedagogy-workshops.md" format="markdown"/>
