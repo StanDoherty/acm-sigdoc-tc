@@ -18,9 +18,57 @@ Think of validation as similar to what happens when you go for your drivers test
 
 Whether you take the road test once or a dozen times, your performance in each instance of the road test will be evaluated by a trained trooper against that same drivers handbook. 
 
-Shifty gears to content development, we see three components involved with validating structured content.
+Shifting gears to content development, we see three components involved with validating structured content.
 
-1. The rules (the handbook): 
-2. The validator (state trooper): 
-3. The instance (road test): 
+
+
+* A schema (set of rules): 
+* A document (instance):  
+* A validator: 
+  
+Here's how it works.
+
+1. In my authoring tool, I choose File - New and specify a particular schema (set of rules) that I want to use for a new document.
+
+    ![](images/validate_01.png)
+
+    **Figure 1** Validation
+    
+2. My authoring tool creates that new document and adds some sort of declaration statement to it that says, "Hey -- I am an instance of schema-X or schema-Y."
+
+    ![](images/validate_02.png)
+
+    **Figure 2** Validation
+
+3. Whenever I add content or tags to that new document, my authoring tool asks a built-in validator to get involved.
+
+    ![](images/validate_03.png)
+
+    **Figure 3** Validation
+
+ 
+4. The validator compares what it sees in the document against rules specified in the schema.
+
+    ![](images/validate_04.png)
+
+    **Figure 4** Validation
+ 
+5. If the content and tags in the document conform to the content and markup rules specified in the schema, the document is considered valid.
+
+    ![](images/validate_05.png)
+
+    **Figure 5** Validation
+  
+6. If the content and tags in the document do not conform to the content and markup rules specified in the schema, the document is considered invalid. 	
+
+    ![](images/validate_06.png)
+
+    **Figure 6** Validation
+
+    Many content management systes will not let you commit an invalid document until you have addressed the issues involved and validated the document once again. 
+
+If you create 100 instances of a particular schema or topic type, this validation process will always ensure all 100 instances are consistent. Furthermore, the 100 instances you create from the same schema will be consistent and usable for any other members of your team having access to that schema.  
+
+## JSON example
+
   
