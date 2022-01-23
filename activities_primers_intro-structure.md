@@ -85,9 +85,9 @@ JSON (JavaScript Object Notation) is a popular markup language that supports the
 
 ![](images/json_06.png)
 
-** Figure x ** JSON sample
+** Figure xx ** JSON sample
 
-![](images/json_07.png)
+![](images/json_10.png)
 
 ** Figure x ** JSON sample
 
