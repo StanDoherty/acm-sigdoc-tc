@@ -65,10 +65,53 @@ Here's how it works.
 
     **Figure 6** Validation
 
-    Many content management systes will not let you commit an invalid document until you have addressed the issues involved and validated the document once again. 
+    Many content management systems will not let you commit an invalid document until you have addressed the issues involved and validated the document once again. 
 
 If you create 100 instances of a particular schema or topic type, this validation process will always ensure all 100 instances are consistent. Furthermore, the 100 instances you create from the same schema will be consistent and usable for any other members of your team having access to that schema.  
 
 ## JSON example
 
-  
+JSON (JavaScript Object Notation) is a popular markup language that supports the exchange of data between applications and between systems. Two applications can exchange JSON files and correctly process the structured data those files contain because the applications use a JSON schema to interpret each JSON data file. Let's look at one of these JSON schemas.
+
+ 
+
+![](images/json_04.png)
+
+** Figure x ** JSON sample
+
+![](images/json_05.png)
+
+** Figure x ** JSON sample
+
+![](images/json_06.png)
+
+** Figure x ** JSON sample
+
+![](images/json_07.png)
+
+** Figure x ** JSON sample
+
+![](images/json_08.png)
+
+** Figure x ** JSON sample
+
+![](images/json_09.png)
+
+** Figure x ** JSON sample
+
+
+## Database example
+
+Databases are probably the most familiar form of structured information. Whereas JSON uses a schema to define required data fields, database applications specify field names and allowed field values in table definitions. Here is a Microsoft Access table definition for the same structured information as our JSON example.   
+
+
+OK. So forms of structured information such as JSON and databases handle discrete fields and bundles of moving data, but what  
+
+
+## OASIS DITA example
+
+
+
+
+
+
