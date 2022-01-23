@@ -32,38 +32,38 @@ Here's how it works.
 
     ![](images/validate_01.png)
 
-    **Figure 1** Validation
+    **Figure 1** Validation (validate_01.png)
     
 2. My authoring tool creates that new document and adds some sort of declaration statement to it that says, "Hey -- I am an instance of schema-X or schema-Y."
 
     ![](images/validate_02.png)
 
-    **Figure 2** Validation
+    **Figure 2** Validation (validate_02.png)
 
 3. Whenever I add content or tags to that new document, my authoring tool asks a built-in validator to get involved.
 
     ![](images/validate_03.png)
 
-    **Figure 3** Validation
+    **Figure 3** Validation (validate_03.png)
 
  
 4. The validator compares what it sees in the document against rules specified in the schema.
 
     ![](images/validate_04.png)
 
-    **Figure 4** Validation
+    **Figure 4** Validation (validate_04.png)
  
 5. If the content and tags in the document conform to the content and markup rules specified in the schema, the document is considered valid.
 
     ![](images/validate_05.png)
 
-    **Figure 5** Validation
+    **Figure 5** Validation (validate_05.png)
   
 6. If the content and tags in the document do not conform to the content and markup rules specified in the schema, the document is considered invalid. 	
 
     ![](images/validate_06.png)
 
-    **Figure 6** Validation
+    **Figure 6** Validation (validate_06.png)
 
     Many content management systems will not let you commit an invalid document until you have addressed the issues involved and validated the document once again. 
 
@@ -73,36 +73,55 @@ If you create 100 instances of a particular schema or topic type, this validatio
 
 JSON (JavaScript Object Notation) is a popular markup language that supports the exchange of data between applications and between systems. Two applications can exchange JSON files and correctly process the structured data those files contain because the applications use a JSON schema to interpret each JSON data file. Let's look at one of these JSON schemas.
 
+
+json_id0_well-formed.png
+
+![](images/json_id0_well-formed.png)
+
+
+json_id0_valid2.png
+
+![](images/json_id0_valid2.png)
+
+
+json_id0_validate-with.png
+
+![](images/json_id0_validate-with.png)
+
  
-
-![](images/json_04.png)
-
-** Figure x ** JSON sample
-
-![](images/json_05.png)
-
-** Figure x ** JSON sample
-
-![](images/json_06.png)
-
-** Figure xx ** JSON sample
+** Figure xx ** JSON schema text
 
 ![](images/json_10.png)
 
-** Figure x ** JSON sample
+** Figure x ** JSON schema design
 
-![](images/json_08.png)
+![](images/json_schema_design.png)
 
-** Figure x ** JSON sample
 
-![](images/json_09.png)
 
-** Figure x ** JSON sample
+## JSON-LD example
+
+
 
 
 ## Database example
 
 Databases are probably the most familiar form of structured information. Whereas JSON uses a schema to define required data fields, database applications specify field names and allowed field values in table definitions. Here is a Microsoft Access table definition for the same structured information as our JSON example.   
+
+** Figure x ** Database table definition
+
+![](images/access_01.png)
+
+** Figure x ** Database table field attributes
+
+![](images/access_03.png)
+
+
+** Figure x ** Database table records
+
+![](images/access_02.png)
+
+
 
 
 OK. So forms of structured information such as JSON and databases handle discrete fields and bundles of moving data, but what  
