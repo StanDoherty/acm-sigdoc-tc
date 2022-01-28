@@ -81,7 +81,7 @@ Each product to be added to the inventory must have a product ID number (product
 
 ** Figure x ** Database table field attributes  (access_03.png)
 
-![](images/access_03.png)
+![](images/access_04.png)
 
 Once you have defined the fields and data types that you want for your database table, you switch out of table design mode start adding content to your database. Each row of content is an instance of your table definition and must consist of the fields that conform to the "table definition" rules.   
 
