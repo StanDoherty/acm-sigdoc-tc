@@ -93,44 +93,82 @@ If the database application were to allow any deviations from the "table definit
 
 ## JSON example
 
-JSON (JavaScript Object Notation) is a popular markup language that supports the exchange of data between applications and between systems. Two applications can exchange JSON files and correctly process the structured data those files contain because the applications use a JSON schema to interpret each JSON data file. Let's look at one of these JSON schemas.
+JSON (JavaScript Object Notation) is a popular markup language that supports the exchange of data between applications and between systems. JSON files and messages consist of a collection of name:value pairs such as ``productId: 45592``. 
 
+As with any markup language, JSON has rules about encoding data with brackets, braces, quotation marks, and punctuation. One set of rules for JSON syntax is [https://json-schema.org/draft-07/schema](https://json-schema.org/draft-07/schema "https://json-schema.org/draft-07/schema"). If the syntax in a JSON data file conforms to a schema such as ``draft-07/schema``, the JSON is evaluated to be "well-formed". The syntax of all its statements is correct.   
 
-json_id0_well-formed.png
+json_id0_well-formed2.png
 
-![](images/json_id0_well-formed.png)
+![](images/json_id0_well-formed2.png)
 
+Using the correct syntax in the JSON data files exchanged between applications is important, but how do the applications interpret the name:value pairs? In addition to a schema for markup syntax, JSON relies on schema definitions the way database applications rely upon table definitions. 
 
-json_id0_valid2.png
-
-![](images/json_id0_valid2.png)
-
-
-json_id0_validate-with.png
-
-![](images/json_id0_validate-with.png)
-
- 
 ** Figure xx ** JSON schema text
 
 ![](images/json_10.png)
+
+The following schema specifies the JSON syntax schema to be used (line 1) and provides an ID (URL) for itself (line 2).        
+
+
+The JSON example here is derived from the wonderful ``json-schem.org`` tutorial   [https://json-schema.org/learn/getting-started-step-by-step.html](https://json-schema.org/learn/getting-started-step-by-step.html "Getting Started Step-By-Step"). This schema is in turn an instance of the general "Product" schema defined in [https://schema.org/](https://schema.org/ "schema.org") as [https://schema.org/Product](https://schema.org/Product "Product"). Google, Microsoft, Yahoo, and other companies formed schema.org as a "collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond." If I want use JSON to collect information about multiple product inventories, I would not need to start from scratch each time in defining my particular JSON schema. I simply pick and choose which properties (fields) I want from the generic schema.org schema for "Product".  
+ 
+In this instance, the properties ``productId``, ``productName``, and ``price`` are required to be in any JSON data file that uses this Schema. These are the same properties (fields) that we viewed in our previous database table definition. 
 
 ** Figure x ** JSON schema design
 
 ![](images/json_schema_design.png)
 
+First, the JSON validator reads the schema definition that I posted to my web site (``schema_product1.json``). 
+[https://www.w3.org/TR/json-ld11/](https://www.w3.org/TR/json-ld11/ "standard")
+json_id0_validate-with.png
 
+![](images/json_id0_validate-with2.png)
+
+Then the validator compares the name:value pairs in my JSON data file (``data_productID1.json``) to the schema definition. If the syntax and structure of the name:value pair properties in ``data_productID1.json`` conform to ``schema_product1.json``, the JSON data file is evaluated as "valid" and the application can safely integrate its data.     
+
+json_id0_valid3.png
+
+![](images/json_id0_valid3.png)
+
+What makes JSON interesting is that *any* application worldwide with access to the schema definition can validate and exchange JSON messages with any other application. Exchanging valid information becomes a global, web-aware opportunity.    
+
+OK. This "validating structure" is all well and good for fragmentary, name:value information, but how does it add any value to web content or to product documentation? Let's look at web content first.       
 
 ## JSON-LD example
 
+Web pages encoded in HTML5 have no schema or document type definition (DTD) against which a validator can use to test compliance. That is unlikely to change.
 
+Although a web page marked up in HTML5 cannot be validated as a document, that does not mean that important keywords and other information in the web page cannot be captured as a block of structured content and stored in that web page. 
 
+[JSON for Linking Data](https://json-ld.org/ "JSON for Linking Data") (JSON-LD) is a World Wide Web (W3C) [standard](https://www.w3.org/TR/json-ld11/ "standard") designed to "create a network of standards-based, machine-readable data across Web sites. It allows an application to start at one piece of Linked Data, and follow embedded links to other pieces of Linked Data that are hosted on different sites across the Web."  
 
+Basically, a human being or an application such as the [Google Tag Manager](https://developers.google.com/search/docs/advanced/structured-data/generate-structured-data-with-javascript "Google Tag Manager") adds a JavaScript ``<script>`` element to the ``<HEAD>`` of a web page. This ``<script>`` contains JSON-compatible name:value pairs that conform to a schema such a "Product" on schema.org. 
 
+Here is an example from [json-ld.org](https://jsonld.com/product/ "json-ld.org").     
 
+    <HTML>
+      <HEAD>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Executive Anvil",
+            "image": "http://www.example.com/anvil_executive.jpg",
+            "brand": {
+              "@type": "Thing",
+              "name": "ACME"
+          },
+          . . .
+        </script>
+      <body>
+      <H1>Executive Anvil</H1>
+      . . . 
+      </body>
+    </HTML>     
 
-OK. So forms of structured information such as JSON and databases handle discrete fields and bundles of moving data, but what  
+When an application reads many thousands of pages containing these embedded blocks of structured data, it can validate the ``<script>`` in the web page and build a machine-readable network of keywords and links between those web pages. This network visualization or "graph" allows web pages containing "formal structures" to participate in the work of "validating structures". 
 
+Working with structured information is not an all-or-nothing affair. You can author the majority of your content in a "formal structure" such as HTML5 while parts of it serve in conversation fueled by a "validating structure".  
 
 ## OASIS DITA example
 
