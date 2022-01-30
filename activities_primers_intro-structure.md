@@ -140,7 +140,7 @@ Web pages encoded in HTML5 have no schema or document type definition (DTD) agai
 
 Although a web page marked up in HTML5 cannot be validated as a document, that does not mean that important keywords and other information in the web page cannot be captured as a block of structured content and stored in that web page. 
 
-[JSON for Linking Data](https://json-ld.org/ "JSON for Linking Data") (JSON-LD) is a World Wide Web (W3C) [standard](https://www.w3.org/TR/json-ld11/ "standard") designed to "create a network of standards-based, machine-readable data across Web sites. It allows an application to start at one piece of Linked Data, and follow embedded links to other pieces of Linked Data that are hosted on different sites across the Web."  
+[JSON for Linking Data](https://json-ld.org/ "JSON for Linking Data") (JSON-LD) is a Worldwide Web Consortium (W3C) [standard](https://www.w3.org/TR/json-ld11/ "standard") designed to "create a network of standards-based, machine-readable data across Web sites. It allows an application to start at one piece of Linked Data, and follow embedded links to other pieces of Linked Data that are hosted on different sites across the Web."  
 
 Basically, a human being or an application such as the [Google Tag Manager](https://developers.google.com/search/docs/advanced/structured-data/generate-structured-data-with-javascript "Google Tag Manager") adds a JavaScript ``<script>`` element to the ``<HEAD>`` of a web page. This ``<script>`` contains JSON-compatible name:value pairs that conform to a schema such a "Product" on schema.org. 
 
@@ -168,14 +168,48 @@ Here is an example from [json-ld.org](https://jsonld.com/product/ "json-ld.org")
 
 When an application reads many thousands of pages containing these embedded blocks of structured data, it can validate the ``<script>`` in the web page and build a machine-readable network of keywords and links between those web pages. This network visualization or "graph" allows web pages containing "formal structures" to participate in the work of "validating structures". 
 
-Working with structured information is not an all-or-nothing affair. You can author the majority of your content in a "formal structure" such as HTML5 while parts of it serve in conversation fueled by a "validating structure".  
+Working with structured information is not an all-or-nothing affair. You can author the majority of your content in a "formal structure" such as HTML5 while parts of it support a "validating structure".  
 
-## OASIS DITA example
+## OASIS DocBook and DITA examples
+
+I suspect that you are seeing the motivation behind teams adopting "validating structures" -- scalability. If you do most of your writing solo or work predominantly on small teams, it is unlikely that you are producing more than a few hundred documents, publishing them frequently, or publishing them all together. Do you need to have all your documents derived from the same set of schemas or DTDs? No. You do not need to *scale up* -- increase the number of your documents from 100 to 500,000. You do not need to *scale out* -- increase the ways that the information in those documents gets used and reused. 
+
+In the 1990s, organizations responsible for publishing millions of pages of specifications, maintenance manuals, user guides, and catalogs perceived the need schema that would allow big, distributed teams to author, assemble, and publish large documents from valid, identically structured small documents. 
+
+The first industry standard for "validating structure" documentation was called DocBook and is now maintained by the [Organization for the Advancement of Structured Information Systems](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=docbook "Organization for the Advancement of Structured Information Systems") (OASIS). Just as individual, custom JSON schema for product inventories are all derived from the "Product" schema on schema.org, all DocBook document type definitions (DTDs) are derived from the definitive DocBook schema [Version 5.1.1](https://docs.oasis-open.org/docbook/docbook/v5.1.1/csd01/docbook-v5.1.1-csd01.html "Version 5.1.1").    
+
+As we saw with JSON, every DocBook document needs to identify its markup syntax (``<?xml version="1.0" encoding="UTF-8"?>``) and the schema that defines which elements and attributes are allowed (``http://docbook.org/ns/docbook``).  
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <book xml:id="my_tiny_book" xmlns="http://docbook.org/ns/docbook" version="5.0">
+      <title>My first tiny book</title>
+      <chapter xml:id="tiny-book_chapter1">
+        <title>Chapter 1: My journey</title>
+        <para>Welcome readers!</para>
+        <para>This is my first paragraph.</para>
+        . . .
+      </chapter>
+      <chapter xml:id="tiny-book_chapter2">
+        <title>Chapter 2: Childhood bliss</title>
+        <para>One dark and stormy night . . . </para>
+        . . .
+      </chapter>
+     </book>
+
+The [Worldwide Web Consortium](https://www.w3.org/ "Worldwide Web Consortium") (W3C) maintains the standard for the [Extensible Markup Language](https://www.w3.org/XML/ "Extensible Markup Language") (XML). As with HTML, XML uses angle brackets to identify elements such as ``book`` and separating spaces to identify attributes such as ``xml:id`` within those elements. This sample DocBook file is a publication with the title "My first tiny book" and contains two chapters. For large, linear-architecture publications such as reference manuals or catalogs, DocBook continues to deliver the goods. 
+
+For modular, topic-based writing, DocBook has been superseded by its OASIS cousin the [Darwin Information Typing Architecture](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita "Darwin Information Typing Architecture") (DITA). What DITA brings to the party are:
+
+* *Topic types*: Separate DTDs for concept, reference, and task information
+* *Maps*: A document that assembles and organizes the separate topics
+* *Inheritance*: Within maps and topics, objects lower in the hierarchy inherit settings defined in higher levels. 
+* *Conditional assembly*: Filtering attributes can be set to include or exclude content according to filtering profiles
+* *Semantic markup*: Element names described their content, for example ``<menuitem>`` instead of ``<b>``.
+* *Specialization*: Existing elements can be constrained or refactored into new elements.
 
 
 
-
-
+       
 
 
 
