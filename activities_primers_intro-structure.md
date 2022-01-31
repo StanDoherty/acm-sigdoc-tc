@@ -205,10 +205,37 @@ For modular, topic-based writing, DocBook has been superseded by its OASIS cousi
 * *Inheritance*: Within maps and topics, objects lower in the hierarchy inherit settings defined in higher levels. 
 * *Conditional assembly*: Filtering attributes can be set to include or exclude content according to filtering profiles
 * *Semantic markup*: Element names described their content, for example ``<menuitem>`` instead of ``<b>``.
+* *Content reuse mechanisms*: Content can be included by reference using multiple techniques.
 * *Specialization*: Existing elements can be constrained or refactored into new elements.
 
+In the context of our discussion, what makes DITA interesting is that it does not limit the number of topic DTDs that you use in one publication. I can make my 10 definitions consistent across my publication by using 10 concept topics (``concept.dtd``) while making my 200 procedures consistent by using the task topics (``task.dtd``). Furthermore, I can customize these out-of-the-box topic types to create DTDs that address my company-specific requirements. 
+
+* Generic topic
+	* ``<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">`` 
+* [Concept topic](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-concept-topic.html#dita_concept_topic "Concept topic")
+ * ``<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">``
+* [Task topic](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-task-topic.html#dita_task_topic "Task topic")
+  * ``<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">``
+* [Reference topic](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-reference-topic.html#dita_ref_topic "Reference topic")
+ * ``<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">``
+* [Glossary topic](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-glossary-topic.html#glossaryArch "Glossary entry topic")
+ * ``<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossaryentry.dtd">
+`` 
+* [Troubleshooting topic](http://docs.oasis-open.org/dita/dita/v1.3/errata02/os/complete/part3-all-inclusive/archSpec/technicalContent/dita-troubleshooting-topic.html#dita-troubleshooting-topic "Troubleshooting topic")
+ * ``<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">``   
+
+What transforms a collection of separate topics into a publication is the DITA map. It references the stand-alone topics and provides the content organization for your publication.
+
+![Maps](images/dita_map1.png)   
+
+![Maps](images/dita_map2.png)
+
+To the extent that any topic can be referenced from multiple maps, the potential for content reuse is high. 
 
 
+
+
+ 
        
 
 
