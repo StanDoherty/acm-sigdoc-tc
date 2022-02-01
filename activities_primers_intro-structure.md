@@ -2,28 +2,28 @@
 
 In both industry and academia, we have numerous definitions for "structure". In various contexts, they are all useful. Let's start our inquiry by unpacking two of the prominent usages -- "formal structure" and "validating structure".   
 
-"Formal structure" is quite familiar to us and connotes organizing our content in sequences, patterns, or recurring formats for the sake of consistency or reader impact. Classical rhetoric would call "formal structure" some form of "disposition" (*dispositio*). 
+"Formal structure" is familiar to us and connotes organizing our content in sequences, patterns, or recurring formats for the sake of consistency and reader impact. Classical rhetoric would call "formal structure" some form of "disposition" (*dispositio*). 
 
-My first exposure to "formal structure" was in kindergarten. I had been writing both the upper-case and lower-case alphabet for a year, so the hours in class scrawling my way through letters on practice sheets was tedious. I decided that I should rush through each writing exercise to finish first. The senior of my two kindergarten teachers was unhappy with the carelessness of my work and once pulled two fourth graders (our idols) in for a look-see at a batch of our exercises. The taller of the two fourth graders remarked on my exercise, "This is really sloppy. Why would I read this one when so many of the others are neat!" Following the rules (literally) mattered. Thinking about how the content would be received mattered.  
+My first exposure to "formal structure" was in kindergarten. I had been writing both the upper-case and lower-case alphabet for a year, so the hours in kindergarten class scrawling my way through letters on practice sheets was tedious. I decided that I should rush through each writing exercise to finish first. My kindergarten teacher was unhappy with my carelessness and once pulled two fourth graders (our idols) in for a look-see at our exercises. The taller of the two fourth graders remarked on my exercise, "This is really sloppy. Why would I read this one when so many of the others are neat!" Following the rules (literally) mattered. Thinking about how content is received does matter.  
 
-"Validating structure" is a different beastie, having less to do with the disposition of the perceptible content and more with its underlying markup. My first exposure to "validating structure" was a negative one. I had just completed a long API documentation project which delivered hundreds of identically structured and formatted Microsoft Word files. My boss gathered several of us to meet with a consultant making the rounds through the company to talk about SGML and "structured authoring". In that first memorable meeting, we were informed that everything that we had been producing in Microsoft Word or Framemaker was "unstructured" content. We were not doing anything wrong, but none of it was really implemented in a way that made it "structured". For writers coming off projects that involved meticulous outlining, religiously consistent headings within API topics, and thorough editing, them's fightin' words and we, of course, did most everything in our limited spheres to impede or delay the roll-out of SGML and its notion of "structured content". 
+"Validating structure" is less familiar and is a different beastie. It has more to do with the disposition of the perceptible content than its underlying markup. My first exposure to "validating structure" was a negative one. I had just completed a long API documentation project which delivered hundreds of identically structured and formatted Microsoft Word files. My boss gathered several of us to meet with a consultant making the rounds through the company to talk about SGML and "structured authoring". In that first memorable meeting, we were informed that everything that we had been producing in Microsoft Word or Framemaker was "unstructured" content. We were not doing anything wrong, but none of it was implemented in a way that gave it "structured" goodness. For writers coming off projects that involved meticulous outlining, religiously consistent headings within API topics, and thorough editing, them's fightin' words and we, of course, did most everything in our limited spheres to impede or delay the roll-out of SGML and its notion of "structured content". 
 
-It was then and remains today a distinction, but not a judgement. If the consultant had led with, "I'm here today to tell you about *hyper-epi-meta-mogrified content* and what it might mean for our future," I guarantee that we would have responded better as adults and professionals. No threat. No judgements. Room for partnership. 
+If only the consultant had led with, "I'm here today to tell you about *hyper-epi-meta-mogrified content* and what it might mean for our future." I guarantee that we writers would have responded differently. No threat. No judgements. Lots of room for discussion and partnership. 
 
-From first grade through grad school I had been trained to produce logical and impactful writing. Whether I authored my content on a typewriter, cell phone, word processor, or dumb terminal, I and my colleagues shared a general sense of what constituted effectively structured content. That shared sense had NOTHING to do XML, schema, or validation. If 90% of the successful writers in an organization share a general sense of what constitutes a well-structured essay or help topic, you want to build on that collective understanding without attempting to replace it. 
+From grammar through grad school, we have been trained to produce logical and impactful writing. Whether we authored content on a typewriter, cell phone, word processor, or dumb terminal, we shared a general sense of what constituted effectively structured content. *That* shared sense of structure had NOTHING to do XML, schema, or validation.  
 
 "Formal structure" and "validating structure" are not exclusive, but complementary. Let's find out why. 
 
 ## So what does "validating structure" mean?
 
-Think of validation as similar to what happens when you go for your drivers test. Long before the test, you've read and perhaps memorized parts of the driving handbook. You've also had some amount of practice time behind the wheel. The state trooper conducting your drivers test does not care how much prep time you have invested. He or she just wants to determine whether your driving behaviors during the road test comply with the driving handbook. If the handbook states that drivers look left *and* right at a four-way stop, your looking only to the right does not comply with the handbook and you quite possibly fail the test. If your driving is in strict compliance with the handbook, you pass. Whether you take the road test once or a dozen times, your performance in each instance of the road test will be evaluated by a trained trooper against that same drivers handbook. The three components in this example are the rules (driving handbook), the drive (road test), and the evaluator (state trooper).   
+Think of validation as similar to what happens when you go for a driving test. Long before the test, you've read and perhaps memorized parts of the driving handbook. You've also had some amount of practice time behind the wheel. The state trooper conducting your driving test does not care how much prep time you have invested. the trooper just wants to determine whether your driving behaviors during the road test comply with the driving handbook. If the handbook states that drivers must look left *and* right at a four-way stop, your looking only to the right does not comply with the handbook and you quite possibly fail the test. If your driving is in strict compliance with the handbook, you pass. Whether you take the road test once or a dozen times, your performance in each instance of the road test will be evaluated by a trained trooper against that same driving handbook. The three components in this example are the rules (driving handbook), the test instance (road test), and the evaluator (state trooper).   
 
 Shifting gears to content development and validation, we see these same three components.
 
 
 
 * A set of rules -- a schema, database table design, or document type definition (DTD) 
-* A document to be evaluated -- topic, map, database table, or JSON message   
+* A document instance to be evaluated -- topic, map, database table, or JSON message   
 * An evaluator -- parser or software validator
   
 Here's how it works at an abstract level.
@@ -65,7 +65,7 @@ Here's how it works at an abstract level.
 
     **Figure 6** Validation (validate_06.png)
 
-If you create 100 instances of a particular schema or topic type, this validation process will ensure all 100 instances are consistent for you and for your co-workers. Any tools or bots that you develop will be able to read these 100 instances with confidence that they are structurally identical. In enterprise shops managing millions of individual documents, a content management systems will not let you commit an invalid document. 100% of all documents in the system need to be valid for the automated processing and publishing to work.  
+If you create 100 instances of a particular schema or topic type, this validation process will ensure that all 100 instances are consistent for you and for your co-workers. Any tools or bots that you develop will be able to read these 100 instances with the confidence that they are structurally identical. In enterprise shops managing millions of individual documents, content management systems will not let you commit an invalid document. 100% of all documents in the system need to be valid for the automated processing and publishing to work.  
 
 Let's look at some real examples of structured information and validation. 
    
@@ -77,13 +77,15 @@ Databases are probably the most familiar form of structured information. Databas
 
 ![](images/access_01.png)
 
-Each product to be added to the inventory must have a product ID number (productId, number), a product name (productName, string), and price (price, currency). You specify that a field is "required" or optional in that "table definition". The fields productID, productName, and price are required; tags are optional. 
+Each product to be added to the inventory must have a product ID number (``productId``, number), a product name (``productName``, string), and price (``price``, currency). You specify that a field is "required" or optional in that "table definition". The fields ``productID``, ``productName``, and ``price`` are required. 
 
 ** Figure x ** Database table field attributes  (access_03.png)
 
 ![](images/access_04.png)
 
-Once you have defined the fields and data types that you want for your database table, you switch out of table design mode start adding content to your database. Each row of content is an instance of your table definition and must consist of the fields that conform to the "table definition" rules.   
+The ``tag`` field is optional.
+
+Once you have defined the fields and data types that you want in your table definition, you can switch out of table design mode start adding content to your database. Each row of content is an instance (record) of your table definition and must consist of the fields that conform to the "table definition" rules.   
 
 ** Figure x ** Database table records (access_02.png)
 
@@ -95,13 +97,13 @@ If the database application were to allow any deviations from the "table definit
 
 JSON (JavaScript Object Notation) is a popular markup language that supports the exchange of data between applications and between systems. JSON files and messages consist of a collection of name:value pairs such as ``productId: 45592``. 
 
-As with any markup language, JSON has rules about encoding data with brackets, braces, quotation marks, and punctuation. One set of rules for JSON syntax is [https://json-schema.org/draft-07/schema](https://json-schema.org/draft-07/schema "https://json-schema.org/draft-07/schema"). If the syntax in a JSON data file conforms to a schema such as ``draft-07/schema``, the JSON is evaluated to be "well-formed". The syntax of all its statements is correct.   
+As with any markup language, JSON has rules about syntax -- the brackets, braces, quotation marks, and punctuation. One set of rules for JSON syntax is [https://json-schema.org/draft-07/schema](https://json-schema.org/draft-07/schema "https://json-schema.org/draft-07/schema"). If the syntax in a JSON data file conforms to a schema such as ``draft-07/schema``, the JSON is evaluated to be "well-formed". The syntax of all its statements is correct.   
 
 json_id0_well-formed2.png
 
 ![](images/json_id0_well-formed2.png)
 
-Using the correct syntax in the JSON data files exchanged between applications is important, but how do the applications interpret the name:value pairs? In addition to a schema for markup syntax, JSON relies on schema definitions the way database applications rely upon table definitions. 
+Using the correct syntax in the JSON data files exchanged between applications is important, but how do the applications interpret the name:value pairs contained in JSON data files? In addition to a schema for markup syntax, JSON relies on schema definitions the way database applications rely upon table definitions. 
 
 ** Figure xx ** JSON schema text
 
@@ -112,14 +114,14 @@ The following schema specifies the JSON syntax schema to be used (line 1) and pr
 
 The JSON example here is derived from the wonderful ``json-schem.org`` tutorial   [https://json-schema.org/learn/getting-started-step-by-step.html](https://json-schema.org/learn/getting-started-step-by-step.html "Getting Started Step-By-Step"). This schema is in turn an instance of the general "Product" schema defined in [https://schema.org/](https://schema.org/ "schema.org") as [https://schema.org/Product](https://schema.org/Product "Product"). Google, Microsoft, Yahoo, and other companies formed schema.org as a "collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond." If I want use JSON to collect information about multiple product inventories, I would not need to start from scratch each time in defining my particular JSON schema. I simply pick and choose which properties (fields) I want from the generic schema.org schema for "Product".  
  
-In this instance, the properties ``productId``, ``productName``, and ``price`` are required to be in any JSON data file that uses this Schema. These are the same properties (fields) that we viewed in our previous database table definition. 
+In this instance, the properties ``productId``, ``productName``, and ``price`` are required to be in any JSON data file that uses this schema. These are the same properties (fields) that we viewed in our previous database table definition. 
 
 ** Figure x ** JSON schema design
 
 ![](images/json_schema_design.png)
 
-First, the JSON validator reads the schema definition that I posted to my web site (``schema_product1.json``). 
-[https://www.w3.org/TR/json-ld11/](https://www.w3.org/TR/json-ld11/ "standard")
+First, the JSON validator reads the simplified schema definition that I posted to my web site ([https://modularwriting.com/acm-sigdoc/schema_product1.json](https://modularwriting.com/acm-sigdoc/schema_product1.json "https://modularwriting.com/acm-sigdoc/schema_product1.json"). 
+
 json_id0_validate-with.png
 
 ![](images/json_id0_validate-with2.png)
@@ -136,13 +138,13 @@ OK. This "validating structure" is all well and good for fragmentary, name:value
 
 ## JSON-LD example
 
-Web pages encoded in HTML5 have no schema or document type definition (DTD) against which a validator can use to test compliance. That is unlikely to change.
+Web pages encoded in HTML5 have no schema or document type definition (DTD) against which a validator tests compliance. That is unlikely to change.
 
-Although a web page marked up in HTML5 cannot be validated as a document, that does not mean that important keywords and other information in the web page cannot be captured as a block of structured content and stored in that web page. 
+Although a web page marked up in HTML5 cannot be validated as a document, that does not mean that important keywords and other information contained in the web page cannot be captured as a block of structured content and stored in that web page. 
 
 [JSON for Linking Data](https://json-ld.org/ "JSON for Linking Data") (JSON-LD) is a Worldwide Web Consortium (W3C) [standard](https://www.w3.org/TR/json-ld11/ "standard") designed to "create a network of standards-based, machine-readable data across Web sites. It allows an application to start at one piece of Linked Data, and follow embedded links to other pieces of Linked Data that are hosted on different sites across the Web."  
 
-Basically, a human being or an application such as the [Google Tag Manager](https://developers.google.com/search/docs/advanced/structured-data/generate-structured-data-with-javascript "Google Tag Manager") adds a JavaScript ``<script>`` element to the ``<HEAD>`` of a web page. This ``<script>`` contains JSON-compatible name:value pairs that conform to a schema such a "Product" on schema.org. 
+Basically, a human being or an application such as the [Google Tag Manager](https://developers.google.com/search/docs/advanced/structured-data/generate-structured-data-with-javascript "Google Tag Manager") adds a JavaScript ``<script>`` element to the ``<HEAD>`` of a web page. That ``<script>`` contains JSON-compatible name:value pairs that conform to a schema such a "Product" on schema.org. 
 
 Here is an example from [json-ld.org](https://jsonld.com/product/ "json-ld.org").     
 
@@ -166,19 +168,27 @@ Here is an example from [json-ld.org](https://jsonld.com/product/ "json-ld.org")
       </body>
     </HTML>     
 
-When an application reads many thousands of pages containing these embedded blocks of structured data, it can validate the ``<script>`` in the web page and build a machine-readable network of keywords and links between those web pages. This network visualization or "graph" allows web pages containing "formal structures" to participate in the work of "validating structures". 
+When an application reads thousands of web pages containing these embedded blocks of structured data, it can validate the ``<script>`` in the web page and construct a machine-readable network of keywords and links between those web pages. This network visualization or "graph" allows web pages containing "formal structures" to participate in the work of "validating structures". 
 
-Working with structured information is not an all-or-nothing affair. You can author the majority of your content in a "formal structure" such as HTML5 while parts of it support a "validating structure".  
+Working with structured information is not an all-or-nothing affair. You can author the majority of your content in a "formal structure" such as HTML5 while parts of it contribute to a "validating structure" conversation.  
 
 ## OASIS DocBook and DITA examples
 
-I suspect that you are seeing the motivation behind teams adopting "validating structures" -- scalability. If you do most of your writing solo or work predominantly on small teams, it is unlikely that you are producing more than a few hundred documents, publishing them frequently, or publishing them all together. Do you need to have all your documents derived from the same set of schemas or DTDs? No. You do not need to *scale up* -- increase the number of your documents from 100 to 500,000. You do not need to *scale out* -- increase the ways that the information in those documents gets used and reused. 
+I suspect that you are seeing the motivation behind teams adopting "validating structures" -- scalability.
+
+If you do most of your writing on small teams, it is unlikely that you are producing more than a few hundred documents, publishing them frequently, or publishing them as one collection. 
+
+Do you need to have all your documents derived from the same set of schemas or DTDs? No. 
+
+If you need to *scale up* -- increase the number of your documents from 100 to 500,000. Yes.
+
+If you need to *scale out* -- increase the ways that the information in those documents gets used and reused. Yes.
 
 In the 1990s, organizations responsible for publishing millions of pages of specifications, maintenance manuals, user guides, and catalogs perceived the need schema that would allow big, distributed teams to author, assemble, and publish large documents from valid, identically structured small documents. 
 
 The first industry standard for "validating structure" documentation was called DocBook and is now maintained by the [Organization for the Advancement of Structured Information Systems](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=docbook "Organization for the Advancement of Structured Information Systems") (OASIS). Just as individual, custom JSON schema for product inventories are all derived from the "Product" schema on schema.org, all DocBook document type definitions (DTDs) are derived from the definitive DocBook schema [Version 5.1.1](https://docs.oasis-open.org/docbook/docbook/v5.1.1/csd01/docbook-v5.1.1-csd01.html "Version 5.1.1").    
 
-As we saw with JSON, every DocBook document needs to identify its markup syntax (``<?xml version="1.0" encoding="UTF-8"?>``) and the schema that defines which elements and attributes are allowed (``http://docbook.org/ns/docbook``).  
+As we saw with JSON validation, every DocBook document needs to identify its markup syntax (``<?xml version="1.0" encoding="UTF-8"?>``) and the schema that defines which elements and attributes are allowed (``http://docbook.org/ns/docbook``).  
 
     <?xml version="1.0" encoding="UTF-8"?>
     <book xml:id="my_tiny_book" xmlns="http://docbook.org/ns/docbook" version="5.0">
@@ -200,15 +210,15 @@ The [Worldwide Web Consortium](https://www.w3.org/ "Worldwide Web Consortium") (
 
 For modular, topic-based writing, DocBook has been superseded by its OASIS cousin the [Darwin Information Typing Architecture](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=dita "Darwin Information Typing Architecture") (DITA). What DITA brings to the party are:
 
-* *Topic types*: Separate DTDs for concept, reference, and task information
-* *Maps*: A document that assembles and organizes the separate topics
-* *Inheritance*: Within maps and topics, objects lower in the hierarchy inherit settings defined in higher levels. 
-* *Conditional assembly*: Filtering attributes can be set to include or exclude content according to filtering profiles
+* *Topic types*: Separate DTDs for concept, reference, and task information.
+* *Maps*: A document that assembles and organizes the separate topics.
+* *Inheritance*: Within maps and topics, objects lower in the hierarchy inherit settings defined at higher levels. 
+* *Conditional assembly*: Filtering attributes can be set to include or exclude content according to filtering profiles.
 * *Semantic markup*: Element names described their content, for example ``<menuitem>`` instead of ``<b>``.
 * *Content reuse mechanisms*: Content can be included by reference using multiple techniques.
 * *Specialization*: Existing elements can be constrained or refactored into new elements.
 
-In the context of our discussion, what makes DITA interesting is that it does not limit the number of topic DTDs that you use in one publication. I can make my 10 definitions consistent across my publication by using 10 concept topics (``concept.dtd``) while making my 200 procedures consistent by using the task topics (``task.dtd``). Furthermore, I can customize these out-of-the-box topic types to create DTDs that address my company-specific requirements. 
+In the context of our discussion, what makes DITA interesting is that it does not limit the number of topic DTDs that you use in one publication. I can make my 10 definitions consistent across my publication by using 10 concept topics (``concept.dtd``) while making my 200 procedures consistent by using task topics (``task.dtd``). Furthermore, I can customize these out-of-the-box topic types to create DTDs that address my company-specific requirements. 
 
 * Generic topic
 	* ``<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">`` 
