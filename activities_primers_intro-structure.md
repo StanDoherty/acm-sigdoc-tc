@@ -20,8 +20,6 @@ Think of validation as similar to what happens when you go for a driving test. L
 
 Shifting gears to content development and validation, we see these same three components.
 
-
-
 * A set of rules -- a schema, database table design, or document type definition (DTD) 
 * A document instance to be evaluated -- topic, map, database table, or JSON message   
 * An evaluator -- parser or software validator
@@ -73,13 +71,13 @@ Let's look at some real examples of structured information and validation.
 
 Databases are probably the most familiar form of structured information. Database applications specify field names and field data types in "table definition". Here is a Microsoft Access table definition for a basic product inventory. 
 
-** Figure x ** Database table definition (access_01.png)
+**Figure 7** Database table definition (access_01.png)
 
 ![](images/access_01.png)
 
 Each product to be added to the inventory must have a product ID number (``productId``, number), a product name (``productName``, string), and price (``price``, currency). You specify that a field is "required" or optional in that "table definition". The fields ``productID``, ``productName``, and ``price`` are required. 
 
-** Figure x ** Database table field attributes  (access_03.png)
+**Figure 8** Database table field attributes  (access_03.png)
 
 ![](images/access_04.png)
 
@@ -87,7 +85,7 @@ The ``tag`` field is optional.
 
 Once you have defined the fields and data types that you want in your table definition, you can switch out of table design mode start adding content to your database. Each row of content is an instance (record) of your table definition and must consist of the fields that conform to the "table definition" rules.   
 
-** Figure x ** Database table records (access_02.png)
+**Figure 9** Database table records (access_02.png)
 
 ![](images/access_02.png)
 
@@ -99,36 +97,35 @@ JSON (JavaScript Object Notation) is a popular markup language that supports the
 
 As with any markup language, JSON has rules about syntax -- the brackets, braces, quotation marks, and punctuation. One set of rules for JSON syntax is [https://json-schema.org/draft-07/schema](https://json-schema.org/draft-07/schema "https://json-schema.org/draft-07/schema"). If the syntax in a JSON data file conforms to a schema such as ``draft-07/schema``, the JSON is evaluated to be "well-formed". The syntax of all its statements is correct.   
 
-json_id0_well-formed2.png
+**Figure 10** Well-formed JSON data (json_id0_well-formed2.png)
 
 ![](images/json_id0_well-formed2.png)
 
 Using the correct syntax in the JSON data files exchanged between applications is important, but how do the applications interpret the name:value pairs contained in JSON data files? In addition to a schema for markup syntax, JSON relies on schema definitions the way database applications rely upon table definitions. 
 
-** Figure xx ** JSON schema text
+**Figure 11** JSON schema text (json_10.png)
 
 ![](images/json_10.png)
 
 The following schema specifies the JSON syntax schema to be used (line 1) and provides an ID (URL) for itself (line 2).        
 
-
 The JSON example here is derived from the wonderful ``json-schem.org`` tutorial   [https://json-schema.org/learn/getting-started-step-by-step.html](https://json-schema.org/learn/getting-started-step-by-step.html "Getting Started Step-By-Step"). This schema is in turn an instance of the general "Product" schema defined in [https://schema.org/](https://schema.org/ "schema.org") as [https://schema.org/Product](https://schema.org/Product "Product"). Google, Microsoft, Yahoo, and other companies formed schema.org as a "collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond." If I want use JSON to collect information about multiple product inventories, I would not need to start from scratch each time in defining my particular JSON schema. I simply pick and choose which properties (fields) I want from the generic schema.org schema for "Product".  
  
 In this instance, the properties ``productId``, ``productName``, and ``price`` are required to be in any JSON data file that uses this schema. These are the same properties (fields) that we viewed in our previous database table definition. 
 
-** Figure x ** JSON schema design
+**Figure 12** JSON schema design (json_schema_design.png)
 
 ![](images/json_schema_design.png)
 
 First, the JSON validator reads the simplified schema definition that I posted to my web site ([https://modularwriting.com/acm-sigdoc/schema_product1.json](https://modularwriting.com/acm-sigdoc/schema_product1.json "https://modularwriting.com/acm-sigdoc/schema_product1.json"). 
 
-json_id0_validate-with.png
+**Figure 13** JSON validation (json_id0_validate-with2.png)
 
 ![](images/json_id0_validate-with2.png)
 
 Then the validator compares the name:value pairs in my JSON data file (``data_productID1.json``) to the schema definition. If the syntax and structure of the name:value pair properties in ``data_productID1.json`` conform to ``schema_product1.json``, the JSON data file is evaluated as "valid" and the application can safely integrate its data.     
 
-json_id0_valid3.png
+**Figure 13** JSON validation (json_id0_valid3.png)
 
 ![](images/json_id0_valid3.png)
 
@@ -236,15 +233,51 @@ In the context of our discussion, what makes DITA interesting is that it does no
 
 What transforms a collection of separate topics into a publication is the DITA map. It references the stand-alone topics and provides the content organization for your publication.
 
+**Figure 14** DITA maps (dita_map1.png, dita_map2.png)
+
 ![Maps](images/dita_map1.png)   
 
 ![Maps](images/dita_map2.png)
 
 To the extent that any topic can be referenced from multiple maps, the potential for content reuse is high. 
 
+## Conclusion
 
+Is structured content appropriate for all types of content development? Heck no. That said, assuming that you'd never need to know something about it or never work for a company that required structured content would be short sighted. If you are early in your career, there are two good reasons to consider learning more about structured information. 
 
+### Machine learning and robotics
 
+Twenty years ago, you could make the case that the technical content that we produce was consumed almost exclusively by other human beings -- our internal reviewers and external customers. No more. Machine learning involves software applications reading information off the web and assimilating into structures upon which it can act. Machine learning is the on-ramp to artificial intelligence which is the foundation for cutting-edge robotics. 
+
+If you have a working understanding of structured content and how that feeds machine learning, your career in content development may take a decidedly positive turn. Making sense of that boundary between unstructured content that people produce and the structured  content the machine learning systems need is *the* challenge. Consider being a part of it. 
+
+### Enterprise content development
+
+Developing content in any particular information architecture requires an investment -- tooling, training, testing, deployment, and maintenance. Relative to what you invest, the benefits to you and to your customers constitute your return on investment (ROI). The variables to consider when looking at an information architecture to adopt are volume and complexity. 
+
+**Figure 15** Investment quadrants (quadrants_01.png)
+
+![Content quadrant](images/quadrants_01.png)   
+
+Whether the documents that you are producing are simple or complex, the motivation to automate or machine-ingest small numbers of documents is pretty weak. If you are working in small volumes, it is unlikely that you'd see much of a return on investment if you developed DTDs or schema for memos, emails, or technical papers. Automating your document life cycle or submitting small numbers of blogs or web pages into a machine learning system will do little but reduce your productivity. 
+
+**Figure 16** Investment quadrants (quadrants_02.png)
+
+![Content quadrant](images/quadrants_02.png)   
+
+At higher document volumes or complexity, you do not want to maintain manual tasks or processing variations in your workflow. You want your publishing systems to process thousands of valid, structured documents in a matter of minutes.  
+
+**Figure 17** Investment quadrants (quadrants_03.png)
+
+![Content quadrant](images/quadrants_03.png)   
+
+Becoming familiar with some of the basic concepts of structured authoring and being able to work up a few samples will serve you well. The companies with high-volume content and complex architectures tend to be enterprise software, hardware, and service companies always looking for fresh talent. Demonstrating to these enterprise shops that you have interest and a working knowledge of the basics can be advantageous.    
+
+**Figure 18** Investment quadrants (quadrants_04.png)
+
+![Content quadrant](images/quadrants_04.png)   
+
+To learn more about structured content development, see our [ACM Learning Guide]. 
  
        
 
