@@ -1,0 +1,152 @@
+Harvard Extension
+
+EXPO E-42C  Writing in the Sciences
+2015
+Tom Akbari
+akbari@fas.harvard.edu
+Expository Writing E-42c entails the composition of four original and compelling
+projects. The first (5 pages) entails close, analytical reading of your choice of a scientific text or
+texts; the second (8-10 pages) is a literature review of a scientific topic of your choice; the third
+(5 pages) is a proposal and cover document (1 page) for a small-scale research project or a
+reference document that may build on the literature review; the fourth is a web-based
+professional portfolio (essay, 5 pages, plus other material) that presents your scientific writing of
+the term.
+==============================
+https://hcommons.org/members/tomakbari/
+Northeastern University
+ENGW 3302 - Advanced Writing in the Technical Professions
+
+Offers writing instruction for students in the College of Engineering and the College of Computer and Information Science. Students practice and reflect on writing in professional, public, and academic genres—such as technical reports, progress reports, proposals, instructions, presentations, and technical reviews—relevant to technical professions and individual student goals. In a workshop setting, offers students an opportunity to evaluate a wide variety of sources and develop expertise in audience analysis, critical research, peer review, and revision.
+
+Recent profs:  Tabitha Clark, Amy Carleton, Katherine Morelli, Melissa Wolter-Gustaf, Bret Keeling, Kathryn Templeton, Thomas Akbari, Isabel Campos, Talia Vestri, Christen Enos, Amy Patterson, Alison Stephens, Kenneth Oravetz, Rachel Molko, Michael Reich, Matthew Halm	
+-----------------------
+ENGW 3307 - Advanced Writing in the Sciences
+Offers instruction in writing for students considering careers or advanced study in the physical or life sciences. By exploring research literature and reflecting on their own experiences, offers students an opportunity to identify issues of interest in their field and analyze how scientific texts make claims, invoke other scientific literature, offer evidence, and deploy key terms. Through analysis and imitation, exposes students to the challenges of the scientific project, such as the use of quantitative data and visual presentation of evidence. In a workshop setting, offers students an opportunity to evaluate a wide variety of sources and develop expertise in audience analysis, critical research, peer review, and revision.
+
+Recent profs:  Michael Dedek, Cecelia Musselman, James Duggan, Aaron Block, Sarah Finn, Amy Patterson, Arsalan Haq, Samantha Przybylowicz, Deanne Harper, Rachel Lewis, Matthew Noonan, Lillian Havstad, Thomas Akbari, Nicole Keller, Faviana Olivier, Melissa Wolter-Gustaf
+
+===================================
+NU - TCC
+TCC 2200. Introduction to Technical Writing. (3 Hours)
+
+Presents the elements of technical writing: performing audience analysis, conducting content-focused research, planning and structuring content, and designing documents/media for targeted audiences. Applies the output of content development, the results of information-gathering techniques, and the structure of content to a variety of media such as printed and electronic documents, Web content, and instructional materials. Offers students an opportunity to practice organizing, designing, researching, authenticating, formatting, writing, and editing content used in a variety of technical documents/media and for a variety of technical/nontechnical audiences; to examine a variety of technical documentation/media types; and to describe objects, mechanisms, or processes.
+
+Attribute(s): NUpath Writing Intensive	
+
+
+
+TCC 3220. Technical Promotional Writing. (3 Hours)
+
+Explores the structure, style, and graphic presentation of technical content as rendered through promotional data sheets, brochures, and online advertisements for technical products and services. Describes the process of combining subject-matter knowledge and copywriting skills to design, develop, and produce professional-quality technical documents/media such as brochures, articles, product catalogs, demonstration kits, slide presentations, and Web pages. Offers students an opportunity to create technical writing content that persuades, such as election flyers and trade-show handouts; to examine and correct inaccurate and vague content descriptions, such as MSDS fact sheets and data analysis discussions; and to produce effective, persuasive written content, such as research laboratory annual reports and public policy news releases.
+
+Prerequisite(s): ENG 1107 with a minimum grade of D- ; TCC 2200 with a minimum grade of D-
+
+TCC 3230. Writing for the Biotechnology and Pharmaceutical Industries. (3 Hours)
+
+Describes the content development process as it pertains to biosciences and pharmaceutical industries. Defines writing styles and document/media preparation appropriate for these industries. Explores the formal review cycle and then defines a formal review process. Explores bioethics, confidentiality policies, the need for quantification, and the detailed authenticating and referencing of source material. Offers students an opportunity to use corporate models and examples chosen from marketing, research, and sales for various technical documents/media such as abstracts, patient handouts, inserts and labels, and Web pages; to prepare medical data and research results for publication; to practice writing introductions, methods, and results; to create abstracts and summaries; and to participate in a peer-review process.
+
+Prerequisite(s): ENG 1107 with a minimum grade of D- ; TCC 2200 with a minimum grade of D-
+
+TCC 3450. Writing for the Web. (3 Hours)
+
+Compares and contrasts how readers/viewers scan rather than read Web pages and why Web writing differs from traditional text/prose writing. Describes writing styles and how to structure information for the Web. Defines human factors and how they affect writing for the Web. Describes Web navigation and labeling, examines visualization concepts and theory, and presents the processes of evaluation and usability testing. This writing-intensive course offers students an opportunity both for hands-on laboratory-type experiences through planning, designing, building, and testing Web sites and for collaborative work with classmates.
+
+Prerequisite(s): ENG 1107 with a minimum grade of D- ; TCC 2200 with a minimum grade of D-
+
+Attribute(s): NUpath Writing Intensive
+
+TCC 3990. Elective. (1-4 Hours)
+
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+
+TCC 4990. Elective. (1-4 Hours)
+
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+
+TCC 6100. Introduction to Technical and Professional Writing. (4 Hours)
+
+Introduces the basic principles of organizing, creating, and writing technical content. Reviews technical conventions such as headings, styles, and tone. Discusses the presentation of technical information to various audiences, including differences in prose style depending upon the audience. For example, reviews the differences in writing content for proposals, white papers, marketing, and end-user documentation. Emphasizes the concepts and skills for preparing content for technical manuals.
+
+TCC 6102. Editing Technical Content. (4 Hours)
+
+Introduces the practice of technical editing. Offers students an opportunity to learn the levels of editing, including developmental, technical, and copy editing. Other topics include the editor’s role in the publication cycle, the editor’s role within a technical publications department, working with writers in the department, and the creation and uses of style guides. The role of the editor in the online medium sometimes blurs distinctions between design, content, technical, and marketing, and this is assessed in the context of the evolving role of editing online content. Other issues discussed include word choice, consistency, and sentence structure. Uses weekly assignments to assist students to understand and master technical editing principles.
+
+TCC 6110. Information Architecture. (4 Hours)
+
+Introduces concepts important to the design of information architecture. Central to the course is an understanding of user-centered design principles. User-centered design requires that the information designer incorporate the end user into the design process. Offers students an opportunity to analyze and describe the design of an existing information appliance and then move on to the analysis of the design of an information architecture. Finally, students submit their own plans for an information architecture accompanied by a contextualizing document that describes the audience and circumstances for the use of the design.
+
+TCC 6120. Usability and User Experience. (4 Hours)
+
+Introduces and examines theories and practical application of research, evaluation, and design of information products, systems, user interfaces, and the wider user experience. Incorporates the user-centered design (UCD) process as the primary methodology. Reviews numerous usability methods in-depth, including usability testing; heuristic and expert evaluation; prototyping; user research (including surveys, user interviews, and the role of ethnography in this field); and the emerging methods in the field. Concludes with a look into the possible futures of usability.
+
+TCC 6150. Writing Portfolio. (2 Hours)
+
+Offers students an opportunity to complete a professional writing portfolio. Students are guided through critically evaluating their existing work and how best to present their work in a portfolio. Includes information regarding portfolio design, content, and delivery.
+
+TCC 6200. Ethics in Technical Communication. (4 Hours)
+
+Focuses on introducing students to definitions and philosophies of ethics as they pertain to technical communication. Examines both hypothetical and real-world scenarios encountered by technical communicators. Often, technical communicators face ethical dilemmas in creating technical documents, ranging from legal and confidentiality issues to honesty and conflicting cultural values. Offers students an opportunity to explore and analyze ethical decision-making scenarios and make recommendations for action on both personal and managerial levels.
+
+TCC 6400. Structured Documentation. (4 Hours)
+
+Introduces the process of analyzing, organizing, and presenting information using techniques for structuring and authoring data. Presents information types, presentation methods, XML, DTDs, and the principles of structured writing. Offers students an opportunity to use what they learn to design and generate documents that can be easily and efficiently assembled, published, and delivered to the intended audience.
+
+Prerequisite(s): TCC 6630 with a minimum grade of B
+
+TCC 6410. Online Documentation. (4 Hours)
+
+Introduces students to the types of online documentation written by technical writers, including help messages, online reference guides, and tutorials. Discussions and demonstrations cover the techniques as well as the principles of online documentation design, production, and evaluation, with emphasis on current technologies and software.
+
+TCC 6420. Information Design for the Web. (4 Hours)
+
+Introduces students to the skills necessary for Web-based information design. Topics include basic Web concepts, creating text-based Web pages, working with Web graphics, building usable navigation, building page templates, using cascading style sheets, authoring for the Web, designing a Web site, and multimedia considerations. Offers students an opportunity to code their own Web pages, critique existing Web sites, structure information for online presentation, and create a complete stand-alone Web site.
+
+TCC 6430. Writing for the Computer Industry. (4 Hours)
+
+Introduces students to writing and editing professional-quality computer user documentation. Focuses on techniques for creating usable documentation, including attention to text organization and visual elements. Offers students an opportunity to design and write a computer user manual and collateral technical documents, given a functional specification and software developed from that specification. To simulate a common work environment, class members may sometimes work in project teams.
+
+TCC 6440. Advanced Writing for the Computer Industry. (4 Hours)
+
+Seeks to prepare students to work as writers in the computer industry by building on fundamental skills in producing user documentation. Offers students an opportunity to use single-source techniques to create a variety of computer documentation pieces for technical audiences. Rather than doing a complete, hard-copy computer user manual, students focus on techniques for developing an information base and using that base to create different types of software documentation for different audiences. Topics include analyzing the needs of highly technical audiences, developing strategies for different types of documents (including specifications, reference manuals, and white papers), honing writing techniques (including single-sourcing, writing for impaired audiences, and internationalization/localization), working with engineering and marketing, and building a long-term career in the computer industry.
+
+TCC 6450. Managing Technical Publications. (4 Hours)
+
+Investigates how to manage and facilitate teams and groups within the work environment. Focuses on such topics as perception, personality, conflict, and negotiating. Covers assessing the need for change and its impact on an organization, as well as understanding and managing resistance to change. Uses lectures, case studies, and group work to assist students to better understand management roles and requirements.
+
+TCC 6470. Web Accessibility for Technical Communicators. (4 Hours)
+
+Examines the key principles of Web accessibility and how it relates to documentation and content from the user’s perspective. Making Web content and information available to the widest possible audience is important from a legal standpoint but also from a business standpoint. Covers accessibility concepts and universal design as well as the methods people use to access Web content. Discusses rules, standards, and guidelines and how they relate to accessible content. Also touches on the relationship between usability and accessibility.
+
+TCC 6480. Instructional Design for Technical Communicators. (4 Hours)
+
+Focuses on the concepts and overview of instructional design for technical writers. Offers students an opportunity to analyze, design, and develop relevant and useful content for an intended audience, with a particular focus on materials with technical content. Course goals include building a foundation and conceptual framework surrounding the instructional design process. Emphasizes instructional strategies and skills to facilitate adult learning. Additional topics include determining the needs of the learner, techniques for stimulating and sustaining learner motivation, developing learning materials, using multimedia, and how to reinforce learning.
+
+TCC 6490. Usability Testing for Technical Communicators. (4 Hours)
+
+Introduces and examines how to plan, create, run, and facilitate usability testing based on best practices and known testing methodologies. These concepts and methodologies can be used to test products, services, websites, and documentation. Includes an overview of how to construct a usability test, recruit participants, facilitate test sessions, analyze results, and report findings. Emphasizes the emerging use of remote and mobile usability testing.
+
+TCC 6495. Document Design. (2 Hours)
+
+Covers both the principles of document design and the practical skill of using Microsoft Word (Windows and Mac). Explores basic text and paragraph formatting as well as more advanced topics such as page layout, creating styles, using themes, and editing/inserting graphics. Class assignments apply the techniques studied to actual documents. Discussions are an integral part of the course that broaden the classroom experience with issues designed to expand technical communication knowledge. Offers students an opportunity to learn how to solve documentation challenges—creating documents, revising existing documents, or converting older versions to newer versions.
+
+TCC 6610. Prototyping. (2 Hours)
+
+Covers the fundamental principles and methods of prototyping. A prototype is a vehicle that represents a design of something, such as a traditional user interface, a document, or a Web site. Discusses several of the most common methods used by content specialists. Investigates the uses and effectiveness of low-, medium-, and high-fidelity levels of prototyping methods. Reviews sketching, paper prototyping, and the most common prototyping software packages. A significant portion of the course involves collaboration and practical hands-on experience in the creation and iteration of various prototypes.
+
+TCC 6630. Introduction to XML. (2 Hours)
+
+Presents an overview of the Extensible Markup Language (XML). In content-heavy technical communication workplaces, using structured XML content allows authors to produce consistent documentation. Offers students an opportunity to understand the basics of XML—including XML rules and syntax, structuring data with XML, and validating data with Document Type Definitions (DTDs) and schemas—and ample practice with XML. Also covers using cascading style sheets (CSS) and Extensible Stylesheet Language Transformations (XSLT).
+
+TCC 6640. Wiki-Based Documentation. (2 Hours)
+
+Offers students an opportunity to create their own wiki-based documentation project. Using wikis for writing technical documentation has been popular with open-source applications for many years. Today, wikis are increasingly being used by both nonprofit and commercial enterprises for their documentation needs. Students are expected to set up and edit their own personal wiki space as well as to collaborate with others to help develop their wiki pages. Also touches upon effective wiki design, usability, modular documentation, and collaborative writing and editing as part of understanding the best practices associated with creating wiki-based documentation.
+
+TCC 6710. Content Strategy. (4 Hours)
+
+Examines the emerging discipline of content strategy and its critical role and impact on design, creation, distribution, and governance of an organization’s content. Explores a variety of issues relating to the life cycle of an organization’s content, including strategy, audits, the role of legacy content, content migration, and content management systems (CMS). Reviews the role that staff, technical resources, and constraints play within content strategy and discusses the future role of content strategy within a variety of organizations.
+
+TCC 6850. Technical Communications Capstone Project. (4 Hours)
+
+Offers students an opportunity to use classroom learning to produce a final project, such as a technical manual, online help system, or Web-based assistance product. Offers practical advice and guidance on how to function effectively within the technical publications work environment. Seeks to prepare students for as many realistic situations as possible in the work environment, including how to deal with difficult people and situations. Reviews the most current research and trends in the profession. Students work both individually and within groups on various assignments and projects.
+
+Prerequisite(s): TCC 6100 with a minimum grade of C- ; TCC 6102 with a minimum grade of C- ; TCC 6110 with a minimum grade of C- ; TCC 6120 with a minimum grade of C- 
