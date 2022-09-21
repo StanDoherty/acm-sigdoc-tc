@@ -1,4 +1,4 @@
-# Introduction to Structured Information (DRAFT)
+# Introduction to Structured Information
 
 In both industry and academia, we have numerous definitions for "structure". In various contexts, they are all useful. Let's start our inquiry by unpacking two of the prominent usages -- "formal structure" and "validating structure".   
 
