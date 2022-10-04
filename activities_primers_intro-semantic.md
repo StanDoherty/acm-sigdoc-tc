@@ -1,6 +1,7 @@
 # Introduction to Semantic Markup (DRAFT)
 
-In Boston (pronounced Bawstin), a "hoodsie" can mean a small cup of ice cream, a neighborhood native with grandiose plans, or an over-sexed teens hanging out on a car hood. 
+In Boston (pronounced Bawstin), a 
+
 
 
 
