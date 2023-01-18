@@ -1,32 +1,37 @@
 # Introduction to Semantic Markup (DRAFT)
 
-Standard English vocabulary is crazy - one cup Anglo-Saxon, two cups Norman French, one cup Medieval Latin, and two cups Americana. For poets, punsters, advertising mavens, and politicians, it just doesn't get any better. English provides human beings with seemingly endless ways to stretch, obfuscate, or clarify the meaning of a word or phrase. It's a delight.   
+Standard English vocabulary is crazy - one cup Anglo-Saxon, two cups Norman French, one cup Medieval Latin, and two cups Americana. For poets, punsters, advertising mavens, and politicians, it just doesn't get any better. English provides human beings with seemingly endless ways to stretch, obfuscate, or clarify the meaning of most any word or phrase. It's a delight.   
 
-But what about non-human consumers of English. Our chatbots, machine translation apps, smart device interpreters, and national security monitors are less adept than humans in identifying the context for ambiguous words or phrases. Let's look at an  example.  
+But what about non-human consumers of English -- chatbots, machine translation apps, smart device interpreters, and national security monitors? They are less adept than humans in providing context for words or phrases that have multiple meanings (semantics). Let's look at an example.  
 
 In Boston (pronounced Bawstin), we cherish our regional vocabulary. Depending who was saying the following sentence or where they were saying it, we'd have little difficulty interpreting the meaning of the word "dunks".   
 
-"Ronnie, I guess you'll be gettin' yoah dunks tonight."
+"Ronnie, I guess you'll be gettin' yoah **dunks** tonight."
 
-Yes -- Ronnie could be getting ready for basketball or picking up a pair of Nike sneakers or picking up some Dunkin Donuts coffee or doing a few a laps in the pool." If we know Ronnie or have a larger sampling of the conversation, we can easily reconstruct the context for the sentence and narrow the semantic options for the word "dunks". Otherwise we'd need the sentence to give us some clues. 
+Yes -- Ronnie could be:
+
+* Getting ready for basketball
+* Picking up a pair of Nike basketball sneakers
+* Picking up some Dunkin Donuts coffee
+* Doing a few a laps in the local pool
+
+If we humans know Ronnie or have a larger sampling of the conversation, we can easily reconstruct the context for the sentence and narrow the semantic options for the word "dunks". A non-human interpreter could guess, but it would really need the sentence to give us some clues. Supplementing the sentence with a footnote would help . . . 
 
 "Ronnie, I guess you'll be gettin' yoah dunks<sup>1</sup> tonight."
 
 <sup>1</sup> Laps in the swimming pool.
 
-But there are only so many footnotes that you can add -- and the text in the footnote may not be that much more clear to our machine readers.  
+But that becomes impractical quickly. Constraining the vocabulary or range of meanings as we see in Simplified Technical English (STE) is another option, but works exclusively in technical contexts. 
 
-One approach to disambiguating English for both human and machine readers is Simplified Technical English. STE constrains both the vocabulary that we use in technical writing and the complexity of expression. Machine readers rarely encounter  words or sentence constructs that require additional context. It works even better when paired with natural-language processors and AI bots. 
+Yes - this has all been leading up to the concept of "semantic markup" and what role it might in the world of human-machine content development. 
 
-Yes - this has all been leading up to the word "semantic" and what we might make of "semantic markup".
+First, let's clarify what we mean by "semantic markup" in an artifact. 
 
-Requirements:
-
-1. Text must be enhanced with markup (typically elements and attributes).
-2. The name of the markup elements should describe unambiguously what it contains. 
-3. The content in the markup element can be rendered by processors to produce many different styles and formats.
-4. The markup element can be used by processors to do something more.
-5.  
+1. All markup must be universally readable by humans and software applications. Typically that means that the content is sourced in plain text.
+2. That plain text contains easily identifiable tags or element markers. Typically this involves HTML-style element and attribute tags such as &lt;i&gt;.
+3. The name of this tag or element must describe the meaning or function of its content unambiguously. The element &lt;i&gt; tells us *nothing* about its contents. A semantic element such as &lt;cite&gt; specifies that the content of the element reference the name of a publication.  
+3. The content in the markup element can be rendered by processors to produce many different styles and formats. The element &lt;cite&gt; may often be rendered in italics, but processors should be able to render it most any way that is needed. 
+4. As needed, element attributes can further refine the meaning or function of a semantic element. If the &lt;cite&gt; element were enhanced with a custom attribute named @isbn, a processor could render the publication title and its ISBN number when it encountered the markup &lt;cite isbn="445-3-16-238411-1"&gt;. 
 
 
 
