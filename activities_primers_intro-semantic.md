@@ -38,6 +38,13 @@ First, let's clarify what we mean by "semantic markup" in an artifact.
 
 To learn more about structured content development, see our [ACM Learning Guide]. 
  
+## Further reading
+
+* [HTML Semantic Elments, W3C](https://www.w3schools.com/html/html5_semantic_elements.asp)
+* [Semantic Markup, Greg Baker, 2019](https://www2.cs.sfu.ca/CourseCentral/165/common/study-guide/content/html-semantic.html)
+* [What is an HTML Semantic Tag and Why Do You Need To Use It?, Aryan Gupta, 2022](https://www.simplilearn.com/tutorials/html-tutorial/html-semantics)
+* [What On Earth Is Semantic Markup?, Jon Penland](https://html.com/semantic-markup/)
+
        
 
 
