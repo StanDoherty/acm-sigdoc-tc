@@ -278,6 +278,24 @@ Becoming familiar with some of the basic concepts of structured authoring and be
 ![Content quadrant](images/quadrants_04.png)   
 
 To learn more about structured content development, see our [ACM Learning Guide]. 
+
+## Further reading
+
+The following resources are not exhaustive, but are accessible. 
+
+* [About Structured Authoring, Paligo, 2022.](https://paligo.net/docs/en/about-structured-authoring.html)
+
+* [Content Everywhere: Strategy and Structure for Future-Ready Content, Sara Wachter-Boettcher, 2014.](https://www.amazon.com/Content-Everywhere-Strategy-Structure-Future-Ready/dp/193382087X/ref=sr_1_1?crid=CSXLU3X4KBNX&keywords=Content+Everywhere&qid=1675026466)
+
+* [Deep Dive: Structured XML Authoring, Syncro Soft, 2014.](https://www.slideshare.net/abelsp/structured-xml-authoring)
+
+* [Implementing Structured Authoring, ClickHelp, 2021.](https://clickhelp.com/clickhelp-technical-writing-blog/implementing-structured-authoring/)
+
+* [Introduction to Structured Authoring, DitaExchange, 2016.](https://www.youtube.com/watch?v=jQpg0NNjRIU)
+
+* [Open Source DITA Collections, OASIS DITA Adoption Technical Committee, 2020.](https://wiki.oasis-open.org/dita-adoption/ditaSourceSets)
+
+* [Structured vs Unstructured Data – What's the Difference?, David Pickell, 2018.](https://www.g2.com/articles/structured-vs-unstructured-data)
  
        
 
